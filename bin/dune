@@ -1,0 +1,4 @@
+(executable
+ (public_name miniflux_opml_backup)
+ (name main)
+ (libraries miniflux_opml_backup))
