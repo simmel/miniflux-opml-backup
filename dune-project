@@ -13,7 +13,7 @@
 
 (license ISC)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/simmel/miniflux-opml-backup)
 
 (package
  (name miniflux_opml_backup)

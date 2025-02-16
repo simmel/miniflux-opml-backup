@@ -7,7 +7,7 @@ authors: ["Simon Lundström <simmel@soy.se>"]
 license: "ISC"
 tags: ["miniflux" "rss" "atom" "opml" "backup" "validation"]
 homepage: "https://github.com/simmel/miniflux-opml-backup"
-doc: "https://url/to/documentation"
+doc: "https://github.com/simmel/miniflux-opml-backup"
 bug-reports: "https://github.com/simmel/miniflux-opml-backup/issues"
 depends: [
   "dune" {>= "3.17"}
