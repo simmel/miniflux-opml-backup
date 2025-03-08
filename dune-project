@@ -19,7 +19,10 @@
  (name miniflux_opml_backup)
  (synopsis "Miniflux OPML backup and validator")
  (description "A backup and validation tool for Miniflux OPML export")
- (depends ocaml)
+ (depends
+  ocaml
+  (cmdliner
+   (>= 1.3.0)))
  (tags
   ("miniflux" "rss" "atom" "opml" "backup" "validation")))
 
