@@ -8,9 +8,9 @@
  (complete true)
  (used
   ((source
-    https://github.com/ocaml-dune/opam-overlays.git#0d7a92324c95f0caaadb78054f5133a722a586ae))
+    https://github.com/ocaml-dune/opam-overlays.git#a538aecc5f1c4a775c41ea156d96bfd173caa43b))
   ((source
-    https://github.com/ocaml/opam-repository.git#f0a51302fa1e7e9c279c58d222b6acb0ccf6d199))))
+    https://github.com/ocaml/opam-repository.git#862a7640b194b6ef60dc2d24341920e48dd021fe))))
 
 (expanded_solver_variable_bindings
  (variable_values
