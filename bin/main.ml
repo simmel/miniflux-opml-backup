@@ -3,7 +3,10 @@ let main auth_token url = Printf.printf "Using %s to access %s says: %s\n%!" aut
 
 let auth_token =
   let doc = "API key/token to Miniflux" in
-  Arg.(required & opt (some string) None & info ["auth-token"] ~docv:"API-key" ~doc)
+  let env =
+    Cmd.Env.info "AUTH_TOKEN" ~doc
+  in
+  Arg.(required & opt (some string) None & info ["auth-token"] ~env ~docv:"API-key" ~doc)
 
 let url =
   let doc = "URL to Miniflux" in
