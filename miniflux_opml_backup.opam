@@ -12,6 +12,8 @@ bug-reports: "https://github.com/simmel/miniflux-opml-backup/issues"
 depends: [
   "dune" {>= "3.17"}
   "ocaml"
+  "cmdliner" {>= "1.3.0"}
+  "uri" {>= "4"}
   "odoc" {with-doc}
 ]
 build: [

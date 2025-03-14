@@ -22,7 +22,9 @@
  (depends
   ocaml
   (cmdliner
-   (>= 1.3.0)))
+   (>= 1.3.0))
+  (uri
+   (>= 4)))
  (tags
   ("miniflux" "rss" "atom" "opml" "backup" "validation")))
 
